@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="container mx-auto px-3 md:px-6 lg:px-24 pt-2 r w-full border-b-2 border-customGray ">
+    <!-- top nav  -->
+    <div class="top-nav flex justify-between items-center w-full">
+
+
+      <!-- logo -->
+      <div class=" ">
+        <h1 class="text-3xl md:text-5xl text-orange-500 font-serif">Etsy</h1>
+      </div>
+      <!-- lg screen items start-->
+      <div class="hidden  md:flex flex-1 gap-4  mr-14 justify-center items-center">
+        <!-- categories -->
+        <div
+          class="flex items-center gap-2 font-semibold hover:bg-customGray transition-all duration-500 ease-out  rounded-full px-4 py-1 cursor-pointer  ">
+          <img src="images/menu.svg" alt="menu" class="w-5 h-5">
+          <h2 class="text-md font-semibold">Categories</h2>
+        </div>
+        <!-- searchbar -->
+        <div class="w-full  text-white relative ">
+
+          <input type="text" name="" id="search-input" placeholder="Search for anything"
+            class="w-full h-12 px-4 py-2 border-2 border-black rounded-full text-black ">
+          <div id="search-icon-parent"
+            class="search-icon absolute top-2 right-3 hover:top-0 hover:right-0 hover:rounded-l-none   bg-orange-400 w-8 h-8 flex items-center justify-center rounded-full hover:w-11 hover:h-11 hover:translate-y-[2px] hover:translate-x-[-2px]">
+            <img src="./images/search.svg" alt="search" class="w-5 h-5 text-white cursor-pointer ">
+          </div>
+        </div>
+
+      </div>
+      <!-- lg screen items end-->
+      <!-- links -->
+      <div class="flex items-center justify-end gap-4 font-semibold ">
+        <a href="#" class="text-md">Sign In</a>
+        <a href="#" class="">
+          <img src="./images/heart.svg" alt="fav" class="w-5 h-5" />
+        </a>
+        <a href="#" class="">
+          <img src="./images/gift.svg" alt="gift" class="w-5 h-5" />
+        </a>
+        <a href="#" class="">
+          <img src="./images/shopping-basket.svg" alt="bucket" class="w-5 h-5" />
+        </a>
+      </div>
+    </div>
+    <!-- top nav  End -->
+    <!-- bottom nav max-md -->
+    <div class=" search-bar md:hidden my-3 flex justify-between items-center gap-4">
+      <div>
+        <img src="./images/menu.svg" alt="menu" class="w-5 h-5 text-white cursor-pointer ">
+      </div>
+      <div class="w-full  text-white relative">
+        <input type="text" name="" id="search-input" placeholder="Search for anything"
+          class="w-full h-12 px-4 py-2 border-2 border-black rounded-full text-black">
+        <div id="search-icon-parent"
+          class="search-icon absolute top-2 right-3 hover:top-0 hover:right-0 hover:rounded-l-none   bg-orange-400 w-8 h-8 flex items-center justify-center rounded-full hover:w-11 hover:h-11 hover:translate-y-[2px] hover:translate-x-[-2px]">
+          <img src="./images/search.svg" alt="search" class="w-5 h-5 text-white cursor-pointer ">
+        </div>
+      </div>
+    </div>
+    <!-- Bottom nav md  -->
+    <div class="bottom-nav hidden md:flex justify-center items-center sm:gap-2 md:gap-4 lg:gap-6 mt-2 ">
+
+      <div
+        class="flex items-center gap-2 font-semibold hover:bg-customGray transition-all duration-500 ease-out  rounded-full px-4 py-1 cursor-pointer h-10">
+        <img src="./images/gift.svg" alt="gift" class="w-5 h-5">
+        <a href="#" class="text-md font-semibold">Gifts</a>
+      </div>
+      <div
+        class="flex items-center gap-2 font-semibold hover:bg-customGray transition-all duration-500 ease-out  rounded-full px-4 py-1 cursor-pointer h-10">
+        <a href="#" class="text-md font-semibold">Valentines Day Gifts</a>
+      </div>
+      <div
+        class="flex items-center gap-2 font-semibold hover:bg-customGray transition-all duration-500 ease-out  rounded-full px-4 py-1 cursor-pointer h-10">
+        <a href="#" class="text-md font-semibold">Home Favourites</a>
+      </div>
+      <div
+        class="flex items-center gap-2 font-semibold hover:bg-customGray transition-all duration-500 ease-out  rounded-full px-4 py-1 cursor-pointer h-10">
+        <a href="#" class="text-md font-semibold">Fashion Finds</a>
+      </div>
+      <div
+        class="flex items-center gap-2 font-semibold hover:bg-customGray transition-all duration-500 ease-out  rounded-full px-4 py-1 cursor-pointer h-10">
+        <a href="#" class="text-md font-semibold">Registry</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- hero section  -->
+
+  <div class="hero-section flex justify-center gap-11 items-center mt-4 mx-auto ">
+    <!-- hero 1 -->
+    <div
+      class="bg-yellow-100 hero-1 cursor-pointer hover:shadow-md   h-[70vh] w-[90vw] md:h-[40vh] md:w-[90vw] lg:w-[60vw] lg:h-[50vh]  rounded-xl  overflow-hidden flex flex-col md:flex-row justify-between items-center hover:scale-[101%] transition-all duration-500 ease-out">
+      <div class=" hero-1-content flex flex-col justify-center items-center py-4 md:ml-10 ">
+        <h1 class="text-3xl md:text-4xl  text-black text-center">Renew your rooms!</h1>
+        <h2 class="text-xl  text-black">shop original Home pieces</h2>
+        <div class="hidden md:flex bg-black rounded-full px-4 py-2 mt-4 gap-2 items-center text-white">
+          <button>Shop Now</button>
+        </div>
+      </div>
+      <div class="w-full h-[50%]   md:w-[30%] md:h-[100%] flex  justify-center items-center ">
+        <img src="images/hero1.webp" alt="hero1"
+          class=" object-cover rounded-t-full md:rounded-t-[0%]  md:rounded-l-full  md:h-[100%] ">
+      </div>
+    </div>
+    <!-- hero 2 -->
+    <div
+      class="hidden lg:block  w-[30vw] h-[50vh] rounded-xl relative  hover:shadow-md  cursor-pointer hover:scale-[101%] transition-all duration-500 ease-out">
+      <img src="./images/hero2.webp" alt="hero2" class="w-full h-full object-cover rounded-xl ">
+      <div
+        class="absolute top-0 left-0   rounded-xl bg-black bg-opacity-35 w-full h-full flex flex-col justify-end items-center ">
+        <div class="mb-10 text-white font-bold ">
+
+          <h1 class="text-2xl">Valantine Day party decor</h1>
+          <p class="text-lg">Shop Now</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- categories section -->
+
+  <div class="categories-section  mx-auto px-3 md:px-10  lg:px-12  pt-2  w-full ">
+    <div class="flex flex-col  gap-6  ">
+      <h1 class="text-xl md:text-3xl font-bold ">
+        Shop our most popular categories
+      </h1>
+      <div class="flex gap-4 items-center justify-center   md:gap-10 flex-nowrap overflow-x-scroll scrollbar-hidden  md:flex-wrap  ">
+        <!-- cat 1 -->
+        <div class=" cards-categories rounded-lg cursor-pointer hover:shadow-lg hover:scale-[101%] transition-all duration-500 ease-out ">
+          <div class="w-28 h-40 md:w-[200px] md:h-[250px]  rounded-lg flex justify-center items-center">
+            <img src="./images/wall-hanging.webp" alt="cat-img" class="w-full h-full text-white rounded-lg">
+          </div>
+          <h1 class="text-lg font-semibold"> Hangings</h1>
+        </div>
+        <!-- cat 2 -->
+        <div class="cards-categories rounded-lg cursor-pointer hover:shadow-md hover:scale-[101%] transition-all duration-500 ease-out">
+          <div class="w-28 h-40 md:w-[200px] md:h-[250px]  rounded-lg flex justify-center items-center">
+            <img src="./images/party.webp" alt="cat-img" class="w-full h-full text-white rounded-lg">
+          </div>
+          <h1 class="text-lg font-semibold">Party </h1>
+        </div>
+        <!-- cat 3 -->
+        <div class="cards-categories rounded-lg cursor-pointer hover:shadow-md hover:scale-[101%] transition-all duration-500 ease-out">
+          <div class="w-28 h-40 md:w-[200px] md:h-[250px]  rounded-lg flex justify-center items-center">
+            <img src="./images/prints.webp" alt="cat-img" class="w-full h-full text-white rounded-lg">
+          </div>
+          <h1 class="text-lg font-semibold">Prints</h1>
+        </div>
+        <!-- cat 4 -->
+        <div class="cards-categories rounded-lg cursor-pointer hover:shadow-md hover:scale-[101%] transition-all duration-500 ease-out">
+          <div class="w-28 h-40 md:w-[200px] md:h-[250px]  rounded-lg flex justify-center items-center">
+            <img src="./images/drawings.webp" alt="cat-img" class="w-full h-full text-white rounded-lg">
+          </div>
+          <h1 class="text-lg font-semibold">Digital  </h1>
+        </div>
+        <!-- cat 5 -->
+        <div class="cards-categories rounded-lg cursor-pointer hover:shadow-md hover:scale-[101%] transition-all duration-500 ease-out">
+          <div class="w-28 h-40 md:w-[200px] md:h-[250px]  rounded-lg flex justify-center items-center">
+            <img src="./images/rings.webp" alt="cat-img" class="w-full h-full text-white rounded-lg">
+          </div>
+          <h1 class="text-lg font-semibold"> Rings</h1>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+
+  <!-- categories section circle -->
+  <div class="categories-section container mx-auto px-6 lg:px-14  pt-2  w-full  mt-10">
+    <div class="flex flex-col  gap-6 ">
+      <h1 class="text-xl md:text-3xl font-bold  text-center">
+        Discover gifts for every occasion
+      </h1>
+      <div class="flex gap-4 items-center justify-center   md:gap-10 flex-nowrap overflow-scroll scrollbar-hidden  md:flex-wrap ">
+        <!-- cat 1 -->
+        <div class="cards-categories bg-white flex px-4 flex-col justify-center items-center rounded-lg cursor-pointer hover:shadow-lg shadow-black hover:scale-[101%] transition-all duration-500 ease-out">
+          <div class="w-28 h-40 md:w-[200px] md:h-[250px]  rounded-lg flex justify-center items-center">
+            <img src="./images/wall-hanging.webp" alt="cat-img" class=" text-white rounded-full">
+          </div>
+          <h1 class="text-lg font-semibold"> Hangings</h1>
+        </div>
+        <!-- cat 2 -->
+        <div class="cards-categories px-4 flex flex-col justify-center items-center rounded-lg cursor-pointer hover:shadow-md hover:scale-[101%] transition-all duration-500 ease-out">
+          <div class="w-28 h-40 md:w-[200px] md:h-[250px]  rounded-lg flex justify-center items-center">
+            <img src="./images/party.webp" alt="cat-img" class=" text-white  rounded-full">
+          </div>
+          <h1 class="text-lg font-semibold">Party </h1>
+        </div>
+        <!-- cat 3 -->
+        <div class="cards-categories px-4 flex flex-col justify-center items-center rounded-lg cursor-pointer hover:shadow-md hover:scale-[101%] transition-all duration-500 ease-out">
+          <div class="w-28 h-40 md:w-[200px] md:h-[250px]  rounded-lg flex justify-center items-center">
+            <img src="./images/prints.webp" alt="cat-img" class=" text-white  rounded-full">
+          </div>
+          <h1 class="text-lg font-semibold">Prints</h1>
+        </div>
+        <!-- cat 4 -->
+        <div class="cards-categories px-4 flex flex-col justify-center items-center rounded-lg cursor-pointer hover:shadow-md hover:scale-[101%] transition-all duration-500 ease-out">
+          <div class="w-28 h-40 md:w-[200px] md:h-[250px]  rounded-lg flex justify-center items-center">
+            <img src="./images/drawings.webp" alt="cat-img" class=" text-white  rounded-full">
+          </div>
+          <h1 class="text-lg font-semibold"> Drawing </h1>
+        </div>
+        
+        
+      </div>
+
+    </div>
+  </div>
+
+  <!-- cta -->
+   <div class="w-full md:h-[80vh] bg-yellow-100 flex flex-col justify-around items-center gap-8 mt-10">
+    <div class="text-center mt-10">
+      <h1 class="text-3xl font-serif">What is Etsy?</h1>
+      <p class="underline"> Read our wonderfully weird story
+
+    </div>
+     <div class="flex flex-col md:flex-row gap-10 px-20">
+        <div class="">
+            <h1 class="text-3xl font-bold">A community doing good</h1>
+            <p>Etsy is a global online marketplace, where people come together to make, <br>
+               sell, buy andue items. <br>
+              We’re alsohing for positive change for small businesses, people, and the planet. </p>
+        </div>
+        <div class="">
+            <h1 class="text-3xl font-bold">A community doing good</h1>
+            <p>Etsy is a global online marketplace, where people come together to make, <br>
+               sell, buy and collect unique items. <br>
+              We, people, and the planet. </p>
+        </div>
+        <div class="">
+            <h1 class="text-3xl font-bold">A community doing good</h1>
+            <p>Etsy is a global online marketplace, where people come together to make, <br>
+               sell, buy and collect unique items. <br>
+              We’re also a community pushing for positive change for small businesses, people, and the planet. </p>
+        </div>
+     </div>
+     <div class=" flex flex-col gap-4 justify-center items-center my-4 px-[74px]">
+      <h1 class="text-2xl font-semibold">Have a question? Well, we’ve got some answers.</h1>
+      <button class="border-2 border-black px-4 py-4 rounded-full cursor-pointer hover:shrink-0 hover:scale-105 transition-all duration-300 ease-in-out ">Go to help center</button>
+     </div>
+   </div>
+
+   <!-- subscribe -->
+    <div class="flex flex-col justify-center items-center bg-blue-300 w-full h-[250px]">
+      <div>
+        <h1 class="text-lg font-bold mb-10">Yes! Send me exclusive offers, unique gift ideas, <br> and personalised tips for shopping and selling on Etsy.</h1>
+      </div>
+      <div class="w-[350px]">
+        <input type="text" placeholder="Enter your email address" class="w-full h-12 px-4 py-2 border-2 border-black rounded-full text-black">
+      </div>
+    </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
