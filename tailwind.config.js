@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       extend: {
+        
         animation: {
           'bounce-effect': 'bounce-scale 0.6s ease-out', // Custom animation name
         },
